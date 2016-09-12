@@ -1,0 +1,11 @@
+/*!test*/
+.test {
+  margin-top: 10px; }
+  .test .test {
+    margin-top: 20px;
+    /* test */ }
+    .test .test .hoge {
+      display: flex;
+      margin-top: 30px; }
+  .test .testteetetet {
+    display: flex; }

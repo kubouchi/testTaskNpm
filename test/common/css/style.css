@@ -1,0 +1,214 @@
+@charset 'utf-8';
+
+/* ----------------------------------------------------------------
+*	 01.Main
+*	  ∟ SideCnts
+*	  ∟ MainCnts
+----------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------
+01. Main
+----------------------------------------------------------------- */
+
+
+#main {
+margin: 20px auto 30px;
+width: 812px;
+}
+
+
+/* ---
+SideCnts
+--- */
+
+.sideCnts {
+float: left;
+position: relative;
+width: 135px;
+}
+
+.sideCntsLogo {
+margin: 4px 0 35px 1px;
+}
+
+/* --- SideBox1 --- */
+
+.sideCntsWrap {
+margin: 0 24px 41px 2px;
+position: relative;
+}
+
+.sideCntsBox1 li {
+border-left: 5px solid #b2b2b2;
+font-size: 15px;
+margin-bottom: 10px;
+text-align: center;
+word-break: break-all;
+}
+.sideCntsBox1 li:hover {
+border-color: #ab63e9;
+}
+.sideCntsBox1 a {
+color: #696969;
+display: block;
+font-weight: bold;
+padding: 9px 0;
+text-decoration: none;
+zoom: 1; /* IE */
+}
+.sideCntsWrapBar {
+position: absolute;
+right: 0;
+top: 0;
+}
+
+
+/* --- SideBox2 --- */
+
+.sideCntsCarouselArea {
+height: 188px;
+overflow: hidden;
+position: relative;
+width: 135px;
+
+*height: 200px;/* IE7 */
+}
+.sideCntsBox2List {
+border: 1px solid #b2b2b2;
+display: table;
+margin-bottom: 10px;
+padding: 9px 6px 9px 10px;
+position: relative;
+width: 117px;
+z-index: -1;
+}
+.sideCntsBox2ListIconNew {
+left: 4px;
+position: absolute;
+top: -7px;
+}
+
+
+.sideCntsBox2ListImg {
+float: left;
+}
+.sideCntsBox2ListTxt {
+float: left;
+font-size: 12px;
+line-height: 1.4;
+padding-left: 10px;
+position: relative;
+width: 75px;
+word-break: break-all;
+}
+.sideCntsSlider {
+left: -135px;
+position: absolute;
+top: 6px;
+width: 405px;
+}
+.sideCntsSlider ul {
+float: left;
+width: 135px;
+}
+.sliderBtn {
+text-align: center;
+width: 135px;
+}
+.sliderBtn li {
+display: inline-block;
+margin-left: 4px;
+
+*display: inline;/* IE7 */
+*zoom: 1;/* IE7 */
+}
+.sliderBtn li:first-child {
+margin-right: 0;
+}
+.sliderBtn a {
+background-image: url('../img/btn_q3_slider_off.png');
+display: inline-block;
+height: 11px;
+width: 11px;
+
+*display: inline;/* IE7 */
+*zoom: 1;/* IE7 */
+}
+.sliderBtn a:hover {
+background-image: url('../img/btn_q3_slider_on.png');
+cursor: pointer;
+}
+.sliderBtn .current {
+background-image: url('../img/btn_q3_slider_on.png');
+}
+
+/* ---
+MainCnts
+--- */
+
+.mainCnts {
+border-bottom: 1px solid #b2b2b2;
+float: right;
+padding-bottom: 10px;
+width: 660px;
+}
+
+.mainCntsImg {
+margin-bottom: 20px;
+position: relative;
+}
+.iconClick {
+position: absolute;
+right: 0;
+top: 0;
+}
+.mainCntsTopicsCategory {
+background-color: #d3b9e9;
+padding: 7px 10px 6px;
+width: 640px;
+}
+.mainCntsTopicsCategoryTtl {
+color: #645b6c;
+float: left;
+font-size: 15px;
+font-weight: bold;
+width: 521px;
+word-break: break-all;
+}
+.mainCntsTopicsCategoryImg {
+border-radius: 2px;
+float: right;
+width: 119px;
+}
+.mainCntsTopicsCategoryTxt {
+color: #575757;
+padding: 8px 10px 0;
+word-break: break-all;
+}
+.mainCntsTopicsBox {
+margin-top: 1px;
+}
+.mainCntsTopicsBoxCol {
+float: left;
+margin: 0 13px 0 9px;
+width: 198px;
+}
+.mainCntsTopicsBoxTtl {
+border-bottom: 1px solid #b2b2b2;
+font-weight: bold;
+margin: 0 0 10px 2px;
+padding-top: 5px;
+word-break: break-all;
+}
+.mainCntsTopicsBoxCol li {
+padding: 4px 0;
+word-break: break-all;
+}
+.mainCntsTopicsBoxCol a {
+color: #09f;
+text-decoration: none;
+}
+.mainCntsTopicsBoxCol a:hover {
+color: #06f;
+text-decoration: underline;
+}
