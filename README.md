@@ -351,7 +351,7 @@ CSS整形（abc順）
 CSSのベンダープレフィックス
 
 ## js:lint
-JS文法チェック。「ES6」は対応してない
+JS文法チェック
 
 ## html:lint
 HTML文法チェック
