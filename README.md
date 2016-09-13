@@ -7,7 +7,7 @@
     "css:sass": "node-sass --include-path scss ./test/common/_scss/**.scss ./test/common/css/**.css",
     "css:comb": "csscomb ./test/common/css/**.css",
     "css:prefix": "postcss --use autoprefixer --autoprefixer.browsers 'ios >= 8, android >= 4.1, last 2 versions' ./test/common/css/**.css -d ./dest/common/css/",
-    "js:lint": "jshint ./test/common/js/**.js",
+    "js:lint": "eslint ./test/common/js/**.js",
     "html:lint": "htmlhint ./test/**.html",
     "watch:css": "watch 'npm run css:sass && npm run css:comb && npm run css:prefix' ./test/common/_scss/",
     "watch:js": "watch 'npm run js:lint' ./test/common/js/",
