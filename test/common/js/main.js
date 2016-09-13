@@ -17,7 +17,7 @@ $(function(){
  //2、toトップをクリックするとページ上部へ自動スクロールして移動する
 
 $(function(){
-  var $totop = $('.linkToTop');
+  var $totop = $('.linkToTop')
   $(window).scroll(function(){
     if ($(this).scrollTop() > 100) {
       $totop.fadeIn();
