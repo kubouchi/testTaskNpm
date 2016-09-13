@@ -351,7 +351,8 @@ CSS整形（abc順）
 CSSのベンダープレフィックス
 
 ## js:lint
-JS文法チェック
+JS文法チェック  
+eslintの仕様上「.eslintrc」ファイルをlint対象ディレクトリに設置する必要がある
 
 ## html:lint
 HTML文法チェック
@@ -360,4 +361,5 @@ HTML文法チェック
 上記各処理のwatch用
 
 ##start
-watchタスクをまとめて回す
+watchタスクをまとめて回す  
+「npm start」でも実行可能
