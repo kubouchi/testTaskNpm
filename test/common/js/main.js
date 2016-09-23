@@ -75,5 +75,5 @@ $(function(){
   function slideItem(num,obj){
     obj.stop().animate({left: width * -(num)}, 500);
   }
- 
+
 });
